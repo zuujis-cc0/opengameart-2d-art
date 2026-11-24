@@ -1,0 +1,23 @@
+Reactorcore Art (RC Art)
+==
+PACK: Wire Kit
+
+--
+
+Pixel-art tile sprites depicting a double wire bundle, can be used in side-view or top-down 2D scenes attached on top of a wall or floor like an addon.
+PNG images with transparent background - both as individual tile images and also a singular sheet. Includes a desaturated/darkened version too.
+
+--
+
+Tile size is 16x16 pixels.
+
+--
+
+By default in image import settings, all sprites/textures have been set to 32 pixels per unit and using a point filter so they appear crisp.
+
+--
+
+Contact:
+mailto:reactorcoregames@gmail.com
+
+Enjoy!

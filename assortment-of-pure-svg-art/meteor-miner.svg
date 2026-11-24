@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 128 128.00001"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="meteor-miner.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.9825758"
+     inkscape:cx="101.08712"
+     inkscape:cy="29.83998"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="MeteorMiner"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g13"
+       inkscape:label="Main">
+      <path
+         id="path1-3"
+         style="opacity:0.981685;fill:#eccece;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:80;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         inkscape:transform-center-x="0.19588933"
+         inkscape:transform-center-y="20.760763"
+         d="M 57.1767,18.612369 C 71.739764,47.566714 15.849874,36.31528 11.405196,47.733944 9.0321297,53.830504 31.846764,58.041778 64.948877,63.00001 67.68019,48.20413 68.564281,33.408249 57.1767,18.612369 Z"
+         sodipodi:nodetypes="cscc"
+         inkscape:label="BackWing" />
+      <g
+         id="g15"
+         inkscape:label="Arm"
+         transform="rotate(1.3247647,64.948939,63.000079)"
+         inkscape:transform-center-x="11.81117"
+         inkscape:transform-center-y="29.098736">
+        <rect
+           style="opacity:0.981685;fill:#eccece;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:80;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+           id="rect14"
+           width="5.914186"
+           height="33.254162"
+           x="112.39928"
+           y="-1.412091"
+           ry="2.957093"
+           rx="0"
+           inkscape:transform-center-y="8.1800667"
+           transform="rotate(53.173557)"
+           inkscape:transform-center-x="11.027259"
+           inkscape:label="Arm2" />
+        <rect
+           style="opacity:0.981685;fill:#eccece;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:80;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+           id="rect13"
+           width="5.914186"
+           height="33.254162"
+           x="64.948875"
+           y="63.000011"
+           ry="2.957093"
+           rx="0"
+           inkscape:transform-center-y="13.276438"
+           inkscape:label="Arm1" />
+        <circle
+           style="opacity:0.981685;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:80;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+           id="path15-5"
+           cx="67.905968"
+           cy="93.247757"
+           r="1"
+           transform="translate(-0.05926981,1.5e-5)" />
+        <path
+           id="rect15"
+           style="opacity:0.981685;fill:#eccece;fill-rule:evenodd;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:80;paint-order:markers fill stroke"
+           d="m 42.910069,110.42796 c -0.250112,-2.52726 0.763686,-3.86013 2.478521,-3.99638 1.934619,-0.15374 3.132192,0.63783 3.692833,3.97735 6.620268,8.59339 14.977819,2.36197 18.927441,0.10333 l -8.642,14.28398 -16.410707,0.56764 z"
+           inkscape:transform-center-x="-9.5946951"
+           inkscape:transform-center-y="6.3937437"
+           sodipodi:nodetypes="csccccc"
+           inkscape:label="Scoop" />
+        <circle
+           style="opacity:0.981685;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:80;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+           id="path15"
+           cx="45.845898"
+           cy="109.45412"
+           r="1"
+           inkscape:label="path15"
+           transform="translate(-0.05926981,1.5e-5)" />
+      </g>
+      <path
+         id="path1"
+         style="opacity:0.981685;fill:#f7eaea;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:80;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         inkscape:transform-center-x="0.19588933"
+         inkscape:transform-center-y="-20.760763"
+         d="m 122.76427,65.908031 c -6.1913,3.782049 -12.64132,3.168482 -26.364707,0.727778 C 39.599298,80.620358 5.2070105,71.135438 5.9893825,65.46653 6.8837912,58.985827 38.326436,51.394191 55.502717,45.933038 67.999552,41.959703 59.399064,28.648603 57.1767,18.612369 c 28.800111,1.927643 66.47506,23.891882 65.58757,47.295662 z"
+         sodipodi:nodetypes="ccsscc"
+         inkscape:label="Body" />
+      <path
+         style="opacity:0.981685;fill:#943838;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:80;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         d="m 97.618588,31.988098 c -9.222613,3.040696 -18.92846,8.687473 -26.255574,15.993041 27.946041,7.238799 36.375166,4.378237 44.689276,-0.259933 -4.47498,-8.026453 -9.3606,-14.294534 -18.433702,-15.733108 z"
+         id="path2"
+         sodipodi:nodetypes="cccc"
+         inkscape:label="WindShield" />
+    </g>
+  </g>
+</svg>

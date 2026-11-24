@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 256" width="1024" height="512" shape-rendering="crispEdges">
+  <!-- Deluxe 32x32, 48x48 & 64x64 16-Bit Retro Sci-Fi Character Sprite Sheet (Clean Transparent Background) -->
+  <defs>
+    <style>
+      /* 5-Tone Color Ramps (Selout -> Shadow -> Midtone -> Highlight -> Specular/Glow) */
+      .c-selout { fill: #0b101d; }
+      .c-steel-d { fill: #162032; }
+      .c-steel-m { fill: #2b3d5c; }
+      .c-steel-l { fill: #48638c; }
+      .c-steel-hi { fill: #8aa4cc; }
+      
+      .c-cyan-d { fill: #005577; }
+      .c-cyan-m { fill: #0099cc; }
+      .c-cyan-l { fill: #00f0ff; }
+      .c-cyan-glow { fill: #80f8ff; }
+      
+      .c-pink-d { fill: #77003a; }
+      .c-pink-m { fill: #cc0066; }
+      .c-pink-l { fill: #ff007f; }
+      .c-pink-glow { fill: #ff80bf; }
+      
+      .c-gold-d { fill: #775500; }
+      .c-gold-m { fill: #cc9900; }
+      .c-gold-l { fill: #ffcc00; }
+      
+      .c-red-d { fill: #660000; }
+      .c-red-m { fill: #cc0000; }
+      .c-red-l { fill: #ff3333; }
+      .c-red-glow { fill: #ff9999; }
+      
+      .c-dark { fill: #080b12; }
+      .c-visor { fill: #00f0ff; }
+      .c-white { fill: #ffffff; }
+    </style>
+  </defs>
+
+  <!-- GRID GUIDE (FOR ENGINE SLICING REFERENCE - HIDDEN OR TRANSPARENT IN EXPORT) -->
+  <g id="sprites">
+    <!-- ========================================== -->
+    <!-- ROW 1: CYBER TROOPER HERO (32x32 GRID)      -->
+    <!-- ========================================== -->
+    <!-- Frame 1: Idle Breathing -->
+    <g transform="translate(0, 0)">
+      <!-- Shadow -->
+      <rect x="8" y="28" width="16" height="3" fill="#000" opacity="0.4"/>
+      <!-- Legs & Boots -->
+      <rect x="10" y="20" width="5" height="9" class="c-steel-d"/>
+      <rect x="17" y="20" width="5" height="9" class="c-steel-d"/>
+      <rect x="9" y="26" width="6" height="3" class="c-selout"/>
+      <rect x="17" y="26" width="6" height="3" class="c-selout"/>
+      <!-- Torso Armor -->
+      <rect x="9" y="11" width="14" height="10" class="c-steel-m"/>
+      <rect x="11" y="12" width="10" height="7" class="c-steel-l"/>
+      <!-- Arc Reactor Core -->
+      <rect x="14" y="14" width="4" height="3" class="c-cyan-l"/>
+      <rect x="15" y="15" width="2" height="1" class="c-white"/>
+      <!-- Helmet & Visor -->
+      <rect x="10" y="3" width="12" height="9" class="c-steel-m"/>
+      <rect x="11" y="2" width="10" height="2" class="c-steel-l"/>
+      <!-- Visor -->
+      <rect x="12" y="5" width="9" height="3" class="c-cyan-l"/>
+      <rect x="18" y="5" width="2" height="1" class="c-cyan-glow"/>
+      <!-- Plasma Arm / Rifle -->
+      <rect x="5" y="13" width="6" height="6" class="c-steel-d"/>
+      <rect x="3" y="15" width="4" height="2" class="c-cyan-m"/>
+    </g>
+
+    <!-- Frame 2: Run Pose 1 -->
+    <g transform="translate(32, 0)">
+      <rect x="7" y="28" width="18" height="3" fill="#000" opacity="0.4"/>
+      <rect x="7" y="19" width="6" height="9" class="c-steel-d"/>
+      <rect x="19" y="21" width="6" height="7" class="c-steel-m"/>
+      <rect x="8" y="10" width="15" height="10" class="c-steel-m"/>
+      <rect x="10" y="11" width="11" height="7" class="c-steel-l"/>
+      <rect x="13" y="13" width="4" height="3" class="c-cyan-l"/>
+      <rect x="10" y="2" width="12" height="9" class="c-steel-m"/>
+      <rect x="12" y="4" width="9" height="3" class="c-cyan-l"/>
+      <rect x="2" y="14" width="7" height="3" class="c-cyan-m"/>
+    </g>
+
+    <!-- Frame 3: Run Pose 2 (Extreme Leg Extension) -->
+    <g transform="translate(64, 0)">
+      <rect x="6" y="28" width="20" height="3" fill="#000" opacity="0.4"/>
+      <rect x="5" y="21" width="7" height="7" class="c-steel-d"/>
+      <rect x="20" y="18" width="7" height="10" class="c-steel-m"/>
+      <rect x="8" y="11" width="15" height="10" class="c-steel-m"/>
+      <rect x="10" y="12" width="11" height="7" class="c-steel-l"/>
+      <rect x="13" y="14" width="4" height="3" class="c-cyan-l"/>
+      <rect x="10" y="3" width="12" height="9" class="c-steel-m"/>
+      <rect x="12" y="5" width="9" height="3" class="c-cyan-l"/>
+      <rect x="1" y="15" width="8" height="3" class="c-cyan-l"/>
+    </g>
+
+    <!-- Frame 4: Attack / Plasma Firing (Muzzle Flash Bloom) -->
+    <g transform="translate(96, 0)">
+      <rect x="8" y="28" width="16" height="3" fill="#000" opacity="0.4"/>
+      <rect x="9" y="20" width="5" height="9" class="c-steel-d"/>
+      <rect x="18" y="20" width="5" height="9" class="c-steel-d"/>
+      <rect x="10" y="11" width="14" height="10" class="c-steel-m"/>
+      <rect x="12" y="12" width="10" height="7" class="c-steel-l"/>
+      <rect x="15" y="14" width="4" height="3" class="c-cyan-l"/>
+      <rect x="11" y="3" width="12" height="9" class="c-steel-m"/>
+      <rect x="13" y="5" width="9" height="3" class="c-cyan-l"/>
+      <!-- Plasma Rifle Extended -->
+      <rect x="2" y="13" width="10" height="4" class="c-steel-hi"/>
+      <!-- Muzzle Blast Flare -->
+      <polygon points="0,15 -6,10 -4,15 -8,15 -4,17 -6,22 0,17" class="c-cyan-glow"/>
+      <circle cx="-3" cy="15" r="4" class="c-white"/>
+    </g>
+
+    <!-- Frame 5: Disintegration / Hurt Glitch -->
+    <g transform="translate(128, 0)">
+      <rect x="8" y="28" width="16" height="3" fill="#000" opacity="0.4"/>
+      <rect x="10" y="20" width="4" height="9" class="c-pink-m" opacity="0.8"/>
+      <rect x="17" y="21" width="6" height="8" class="c-steel-d"/>
+      <rect x="8" y="11" width="14" height="10" class="c-steel-m"/>
+      <!-- Glitch Shift -->
+      <rect x="14" y="9" width="12" height="4" class="c-pink-l" opacity="0.9"/>
+      <rect x="11" y="3" width="12" height="7" class="c-cyan-glow" opacity="0.7"/>
+      <rect x="4" y="6" width="6" height="2" class="c-white"/>
+    </g>
+
+    <!-- ========================================== -->
+    <!-- ROW 2: SECURITY DRONE MK-II (48x48 GRID)    -->
+    <!-- ========================================== -->
+    <g transform="translate(0, 48)">
+      <!-- Frame 1: Drone Hovering -->
+      <g transform="translate(0,0)">
+        <ellipse cx="24" cy="42" rx="14" ry="3" fill="#000" opacity="0.4"/>
+        <!-- Thruster Glow -->
+        <polygon points="20,32 24,40 28,32" class="c-cyan-glow"/>
+        <polygon points="12,28 14,35 16,28" class="c-pink-glow"/>
+        <polygon points="32,28 34,35 36,28" class="c-pink-glow"/>
+        <!-- Main Body Hull -->
+        <path d="M 12,16 L 24,8 L 36,16 L 40,24 L 32,30 L 16,30 L 8,24 Z" class="c-steel-m"/>
+        <path d="M 16,18 L 24,12 L 32,18 L 34,22 L 28,26 L 20,26 L 14,22 Z" class="c-steel-l"/>
+        <!-- Red Scanner Eye Lens -->
+        <circle cx="24" cy="20" r="5" class="c-red-m"/>
+        <circle cx="24" cy="20" r="3" class="c-red-l"/>
+        <circle cx="23" cy="19" r="1.5" class="c-white"/>
+        <!-- Red Laser Target Beam -->
+        <polygon points="24,25 10,48 38,48" fill="url(#redLaserGlow)" opacity="0.35"/>
+        <line x1="24" y1="25" x2="24" y2="48" stroke="#ff0000" stroke-width="2"/>
+      </g>
+    </g>
+
+    <!-- ========================================== -->
+    <!-- ROW 3: HEAVY MECH WARDEN (64x64 GRID)       -->
+    <!-- ========================================== -->
+    <g transform="translate(0, 112)">
+      <!-- Heavy Mech Warden Boss Sprite -->
+      <g transform="translate(0,0)">
+        <ellipse cx="32" cy="60" rx="26" ry="4" fill="#000" opacity="0.5"/>
+        <!-- Tread Legs -->
+        <rect x="8" y="44" width="16" height="14" class="c-steel-d"/>
+        <rect x="40" y="44" width="16" height="14" class="c-steel-d"/>
+        <circle cx="12" cy="51" r="4" class="c-selout"/>
+        <circle cx="20" cy="51" r="4" class="c-selout"/>
+        <circle cx="44" cy="51" r="4" class="c-selout"/>
+        <circle cx="52" cy="51" r="4" class="c-selout"/>
+        <!-- Heavy Armor Torso -->
+        <path d="M 12,20 L 52,20 L 56,36 L 48,46 L 16,46 L 8,36 Z" class="c-steel-m"/>
+        <path d="M 16,22 L 48,22 L 50,34 L 44,42 L 20,42 L 14,34 Z" class="c-steel-l"/>
+        <!-- Shoulder Cannons -->
+        <rect x="2" y="14" width="12" height="16" class="c-steel-d"/>
+        <rect x="0" y="18" width="4" height="8" class="c-red-m"/>
+        <rect x="50" y="14" width="12" height="16" class="c-steel-d"/>
+        <rect x="60" y="18" width="4" height="8" class="c-red-m"/>
+        <!-- Glowing Mech Eye Core -->
+        <rect x="22" y="26" width="20" height="8" class="c-red-d"/>
+        <rect x="24" y="28" width="16" height="4" class="c-red-l"/>
+        <rect x="30" y="29" width="4" height="2" class="c-red-glow"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- GRADIENTS -->
+  <defs>
+    <linearGradient id="redLaserGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff0000" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff0000" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+</svg>

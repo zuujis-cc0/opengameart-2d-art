@@ -1,0 +1,18 @@
+Reactorcore Art (RC Art)
+==
+PACK: Vehicles Tank
+
+--
+
+Pixel-art sprites depicting a component based heavyweight main battle tank. Featuring hovering engines, a giant main cannon, frontal armor segment and fins for stabilized flight.
+
+--
+
+By default in image import settings, all sprites/textures have been set to 32 pixels per unit and using a point filter so they appear crisp.
+
+--
+
+Contact:
+mailto:reactorcoregames@gmail.com
+
+Enjoy!

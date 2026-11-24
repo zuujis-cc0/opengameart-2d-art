@@ -1,0 +1,16 @@
+This document is for informational purposes only.
+If redistributing this archive, please include this file so that others may benefit from 
+the information included herein.
+
+All included files are, or have previously been, released into the public domain - CC0
+No credit is required.
+
+The image was created using Gimp.
+The layered xcf gimp file is included.
+
+Resources used:
+
+2D Pipe parts by TwistedDonkey, CC0
+Free Sci-fi Platformer Game Tileset by pzUH, CC0
+Monster for 3d shooter - Sprite by Pawel "Nmn" Zarczynski, CC0
+

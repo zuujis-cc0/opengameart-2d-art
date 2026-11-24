@@ -1,0 +1,32 @@
+Reactorcore Art (RC Art)
+==
+PACK: Alphabet Bombs
+
+--
+
+Pixel-art sprites of small round objects with a letter of the alphabet on them. Originally inspired by Star Fox's Smart Bomb. 
+
+PNG images with a transparent background. Also a sheet with all bombs included on it is available too.
+
+--
+
+The idea is to come up with a cool idea for a bomb based on the letter of the alphabet. First think of a word that starts with a particular letter and then create an idea how the bomb works and what it does.
+
+Example:
+
+F - Flame, Fire, Flamethrower, Field, Force, Flash
+
+"Flamethrower Bomb" - Upon detonation releases a device with nozzles that shoots a jet of fire in 6 directions for 2 straight minutes. Can roll on flat surfaces, while the jets actually push and spin the device around through sheer force.
+
+The bomb graphic itself serves as a shell for this "surprise". See how many fun ideas you can come up with - put that dictionary to good use!
+
+--
+
+By default in image import settings, all sprites/textures have been set to 32 pixels per unit and using a point filter so they appear crisp.
+
+--
+
+Contact:
+mailto:reactorcoregames@gmail.com
+
+Enjoy!

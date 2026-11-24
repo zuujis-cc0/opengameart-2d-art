@@ -1,0 +1,20 @@
+Reactorcore Art (RC Art)
+==
+PACK: Foxwing Starfighter
+
+--
+
+Pixel-art sprites pack depicting a top-down view of a high speed starfighter for space and aerial combat missions.
+
+Includes a blue, red and green versions. The seperate wings are intended to be freely attached to the body sprite and rotated with pivots.
+
+--
+
+By default in image import settings, all sprites/textures have been set to 32 pixels per unit and using a point filter so they appear crisp.
+
+--
+
+Contact:
+mailto:reactorcoregames@gmail.com
+
+Enjoy!

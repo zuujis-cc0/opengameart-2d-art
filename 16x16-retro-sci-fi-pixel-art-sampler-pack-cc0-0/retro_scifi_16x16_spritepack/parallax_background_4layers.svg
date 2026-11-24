@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 512" width="1024" height="512">
+  <!-- 4-Layer Seamless Parallax Background (Space Outpost & Nebula) -->
+  <defs>
+    <linearGradient id="nebulaBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060914"/>
+      <stop offset="50%" stop-color="#140a28"/>
+      <stop offset="100%" stop-color="#051020"/>
+    </linearGradient>
+    <radialGradient id="nebulaGlow1" cx="30%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.0"/>
+    </radialGradient>
+    <radialGradient id="nebulaGlow2" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#ff007f" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ff007f" stop-opacity="0.0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- LAYER 1: DEEP SPACE & NEBULA (1024x512) -->
+  <g id="layer1_deep_space">
+    <rect width="1024" height="512" fill="url(#nebulaBg)"/>
+    <rect width="1024" height="512" fill="url(#nebulaGlow1)"/>
+    <rect width="1024" height="512" fill="url(#nebulaGlow2)"/>
+    <!-- Starfield -->
+    <circle cx="50" cy="80" r="1.5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="180" cy="140" r="1" fill="#00f0ff" opacity="0.8"/>
+    <circle cx="320" cy="60" r="2" fill="#ffffff" opacity="0.95"/>
+    <circle cx="450" cy="200" r="1.5" fill="#ff007f" opacity="0.7"/>
+    <circle cx="600" cy="90" r="1" fill="#ffffff" opacity="0.8"/>
+    <circle cx="750" cy="170" r="2" fill="#00f0ff" opacity="0.9"/>
+    <circle cx="900" cy="50" r="1.5" fill="#ffffff" opacity="0.85"/>
+    <circle cx="980" cy="220" r="1" fill="#ff007f" opacity="0.75"/>
+    <!-- Distant Gas Planet Ring -->
+    <circle cx="820" cy="140" r="45" fill="#18243b" opacity="0.85"/>
+    <ellipse cx="820" cy="140" rx="75" ry="12" fill="none" stroke="#00f0ff" stroke-width="3" opacity="0.6" transform="rotate(-15, 820, 140)"/>
+  </g>
+
+  <!-- LAYER 2: OUTPOST EXTERIOR SILHOUETTE (1024x512) -->
+  <g id="layer2_station_silhouette" opacity="0.7">
+    <!-- Orbital Station Structures -->
+    <rect x="100" y="240" width="180" height="272" fill="#0d1424"/>
+    <polygon points="100,240 190,160 280,240" fill="#0d1424"/>
+    <!-- Solar Array Panels -->
+    <line x1="190" y1="160" x2="190" y2="80" stroke="#0d1424" stroke-width="6"/>
+    <rect x="110" y="80" width="160" height="30" fill="#162238"/>
+    <line x1="110" y1="95" x2="270" y2="95" stroke="#00f0ff" stroke-width="2" opacity="0.8"/>
+
+    <rect x="520" y="280" width="240" height="232" fill="#0d1424"/>
+    <line x1="640" y1="280" x2="640" y2="190" stroke="#0d1424" stroke-width="4"/>
+    <circle cx="640" cy="190" r="15" fill="#162238"/>
+    <circle cx="640" cy="190" r="4" fill="#ff007f"/>
+  </g>
+
+  <!-- LAYER 3: MIDGROUND GANTRY & PIPING (1024x512) -->
+  <g id="layer3_midground_gantry" opacity="0.85">
+    <rect x="0" y="380" width="1024" height="20" fill="#182236"/>
+    <line x1="0" y1="382" x2="1024" y2="382" stroke="#00f0ff" stroke-width="2"/>
+    <!-- Support Beams -->
+    <rect x="200" y="380" width="30" height="132" fill="#182236"/>
+    <rect x="680" y="380" width="30" height="132" fill="#182236"/>
+    <!-- Conduit Pipes -->
+    <path d="M 0,340 L 400,340 L 440,380 L 1024,380" fill="none" stroke="#2c3a54" stroke-width="8"/>
+    <path d="M 0,340 L 400,340 L 440,380 L 1024,380" fill="none" stroke="#0099cc" stroke-width="3"/>
+  </g>
+
+  <!-- LAYER 4: FOREGROUND FRAME (1024x512) -->
+  <g id="layer4_foreground">
+    <rect x="0" y="460" width="1024" height="52" fill="#0a0e1a"/>
+    <rect x="0" y="460" width="1024" height="6" fill="#485c80"/>
+    <line x1="0" y1="463" x2="1024" y2="463" stroke="#ffcc00" stroke-width="2" stroke-dasharray="20,10"/>
+  </g>
+</svg>
